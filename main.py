@@ -20,6 +20,6 @@ with open(filepath) as csvfile:
 
     print("Months: " , Months)
     print("Total_Revenue: " , Total_Revenue)
-
+    
 
             # Total_Revenue = Total_Revenue + int(row[1])
