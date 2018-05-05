@@ -2,6 +2,9 @@ import os
 import csv
 # csvpath = "os.path.join('..','PyBank','raw_data','budget_data_1.csv')
 filepath = "C:\\Users\\Anish Tendolkar\\datasciencebootcamp\\python_challenge\\Zip\\PyBank\\raw_data\\budget_data_1.csv"
+#filepath = "C:\\Users\\Anish Tendolkar\\datasciencebootcamp\\python_challenge\\Zip\\PyBank\\raw_data\\budget_data_1.csv"
+#IF YOU UNCOMMENT THE LINE ABOVE THE DATA BELOW WILL RUN THROUGH BOTH THE CSV FILES AND RETURN NUMBERS BASED ON BOTH THE CSV FILES.
+
 Months = 0
 Total_Revenue = 0
 change = 0
