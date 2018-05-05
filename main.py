@@ -56,6 +56,23 @@ with open(filepath) as csvfile:
     print("Greatest Increase: " + idate + " $"+str(greatest_increase) +"\n")
     print("Greatest Decrease: " + ddate + " $"+str(greatest_decrease) +"\n")
 
+    file_to_output = "PyBankAnswer.txt"
+    with open(file_to_output, "w") as txt_file:
+        txt_file.write("Total Months: ")
+        txt_file.write(str(Months))
+        txt_file.write("\n")
+        txt_file.write("Total Revenue: ")
+        txt_file.write(str(Total_Revenue))
+        txt_file.write("\n")
+        txt_file.write("Average Change: ")
+        txt_file.write(str(round(sum(revenue_changes) / len(revenue_changes),2)))
+        txt_file.write("\n")
+        txt_file.write("Greatest Increase: ")
+        txt_file.write(idate + " $"+str(greatest_increase))
+        txt_file.write("\n")
+        txt_file.write("Greatest Decrease: ")
+        txt_file.write(ddate + " $"+str(greatest_decrease))
+
 
 
             # Total_Revenue = Total_Revenue + int(row[1])
