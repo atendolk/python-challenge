@@ -53,8 +53,8 @@ with open(filepath) as csvfile:
     print("Total Months: " , Months)
     print("Total Revenue: " + "$" , Total_Revenue)
     print("Average Change: " + "$" + str(round(sum(revenue_changes) / len(revenue_changes),2)))
-    print("Greatest Increase: " + idate + greatest_increase)
-    print("Greatest Decrease: " + ddate + greatest_decrease)
+    print("Greatest Increase: " + idate + " $"+str(greatest_increase) +"\n")
+    print("Greatest Decrease: " + ddate + " $"+str(greatest_decrease) +"\n")
 
 
 
