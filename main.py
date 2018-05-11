@@ -1,10 +1,11 @@
 import os
 import csv
 # csvpath = "os.path.join('..','PyBank','raw_data','budget_data_1.csv')
-filepath = "C:\\Users\\Anish Tendolkar\\datasciencebootcamp\\python_challenge\\Zip\\PyBank\\raw_data\\budget_data_1.csv"
+#filepath = "C:\\Users\\Anish Tendolkar\\datasciencebootcamp\\python_challenge\\Zip\\PyBank\\raw_data\\budget_data_1.csv"
 #filepath = "C:\\Users\\Anish Tendolkar\\datasciencebootcamp\\python_challenge\\Zip\\PyBank\\raw_data\\budget_data_1.csv"
 #IF YOU UNCOMMENT THE LINE ABOVE THE DATA BELOW WILL RUN THROUGH BOTH THE CSV FILES AND RETURN NUMBERS BASED ON BOTH THE CSV FILES.
-
+#txtpath = os.path.join("Zip","PyParagraph","raw_data","paragraph_1.txt")
+filepath = os.path.join("Zip","PyBank","raw_data","budget_data_1.csv")
 Months = 0
 Total_Revenue = 0
 change = 0

@@ -2,7 +2,8 @@
 import os
 
 # Set file path
-txtpath = "C:\\Users\\Anish Tendolkar\\datasciencebootcamp\\python_challenge\\Zip\\PyParagraph\\raw_data\\paragraph_1.txt"
+#txtpath = "C:\\Users\\Anish Tendolkar\\datasciencebootcamp\\python_challenge\\Zip\\PyParagraph\\raw_data\\paragraph_1.txt"
+txtpath = os.path.join("Zip","PyParagraph","raw_data","paragraph_1.txt")
 
 #paragraph = open(txtpath,'r')
 num_words = 0
