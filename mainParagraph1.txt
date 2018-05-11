@@ -1,0 +1,4 @@
+Number of words: 285
+Number of Sentences: 11
+avg Letter Count: 6.277192982456141
+avg Sentence Count: 25.90909090909091
